@@ -1,0 +1,67 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(14, 14, 165, 0.685);
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: gold;
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+img {
+    width: 13rem;
+    height: auto;
+    padding-left: 35rem;
+}
+
+@media only screen and (max-width: 450px) {
+    img {
+        width: 9rem;
+        height: auto;
+        padding-left: 7rem;
+    }
+}
+
+p {
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 2rem;
+    width: 60%;
+    text-align: center;
+    padding-left: 18rem;
+    color: white;
+}
+
+@media only screen and (max-width: 450px) {
+    p {
+        font-size: 1.5rem;
+        padding-left: 5rem;
+    }
+}
+
+span {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 24rem;
+    color: gold;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 450px) {
+    span {
+        font-size: 1.5rem;
+        padding-left: 5rem;
+    }
+}
